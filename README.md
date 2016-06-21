@@ -1,11 +1,13 @@
 # Sudoku Solver
-Implemented a sudoku solver which will correctly add values into a partial 2D sudoku. There are two parts:
+Implemented a sudoku solver in Java which will correctly add values into a partial 2D sudoku. There are three parts:
 
 1. isValidEntryClass: This class invokes method isValidEntry which will check if the value that is being added
    to the partial sudoku is valid by comparing it with other values in that particular row, column and sub-matrix
    
 2. solveSudokuClass: This class invoked method solveSudoku, which calls method solvePartialSudoku (recursive method).
    This class will add values in the partial 2D sudoku by checking conditions given in isValidEntryClass. 
+
+3. MainMethod: This class will define the partial 2D sudoku using arraylist and return the complete solution. 
 
 ## Partial Sudoku
 ![Partial Sudoku](https://github.com/ravichaganti5593/SudokuSolver/blob/master/IncompleteSudoku.png?raw=true "Optional Title")
