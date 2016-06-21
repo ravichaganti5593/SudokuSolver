@@ -7,6 +7,10 @@ Implemented a sudoku solver which will correctly add values into a partial 2D su
 2. solveSudokuClass: This class invoked method solveSudoku, which calls method solvePartialSudoku (recursive method).
    This class will add values in the partial 2D sudoku by checking conditions given in isValidEntryClass. 
 
+
+
+<p align="center"><h1>Complete Sudoku</h1>
 ![Complete Sudoku](https://github.com/ravichaganti5593/SudokuSolver/blob/master/CompleteSudoku.png?raw=true "Optional Title")
+</p>
 
 
